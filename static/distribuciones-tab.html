@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+    <head>
+        <title>La Caprichosa</title>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <!--<script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+        <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>-->
+        <link 
+            rel="stylesheet" 
+            href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+            integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+            crossorigin=""
+        />
+        <script 
+            src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+            integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+            crossorigin="">
+        </script>
+        <link type="text/css" rel="stylesheet" href="lacaprichosa.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:700|Cinzel:700|Raleway:400,400i&amp;subset=latin-ext" rel="stylesheet">
+    </head>
+
+    <body id = "page-body" >
+        <div class = "pagetitle" id="title-block">
+            <img src="La_Caprichosa_titulo_imagen.png" id="logo" class="centered">
+            
+            <div class="centered">La Caprichosa</div></div>
+        </div>
+        <div id="modules-block">
+            <div id="red-tab" ><p class="centered">Red de personas</p></div>
+            <div id="distribuciones-tab"><p class="centered">Distribuciones</p></div>
+            <div id="contenidos-tab"><p class="centered">Modelado de contenidos</p></div>
+        </div>
+        <div id="distribuciones-visualization" class="visualization-block" >
+            <p>Hello distribuciones!</p>
+        </div>
+        <div id="credits"></div>
+            
+
+        <script language="javascript" type="text/javascript" src="index.js"></script>
+    </body>
+</html>
